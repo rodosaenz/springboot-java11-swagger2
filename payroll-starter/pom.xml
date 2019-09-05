@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>pa.bgeneral.payroll</groupId>
+    <artifactId>bgx-digital-payroll-backend</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath />
+  </parent>
+
+  <packaging>jar</packaging>
+
+  <artifactId>payroll-starter</artifactId>
+
+  <name>payroll-starter</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    		<swagger.verion>2.9.2</swagger.verion>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+      <version>${swagger.verion}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+      <version>${swagger.verion}</version>
+		</dependency>
+
+  </dependencies>
+</project>
