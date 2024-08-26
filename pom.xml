@@ -19,7 +19,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<swagger.verion>2.9.2</swagger.verion>
+		<swagger.verion>2.10.0</swagger.verion>
 	</properties>
 	
 	<modules>
